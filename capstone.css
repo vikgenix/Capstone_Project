@@ -122,6 +122,7 @@ justify-content: space-between;
 .im {
     font-size: 28px;
     width: 50%;
+    font-family: "Cutive", serif;
 }
 
 .data {
@@ -147,8 +148,9 @@ justify-content: space-between;
     font-size: 48px;
 }
 
-.metric .subline {
+.metric .subline,.num {
     font-size: 20px;
+    font-family: "Cutive", serif;
 }
 
 /* .container{
@@ -208,7 +210,7 @@ justify-content: space-between;
 .intro-txt {
     font-weight: 400;
     font-size: 48px;
-    font-family: "Cutive", serif
+    font-family: "Cutive", serif;
 }
 
 .heading-table {
@@ -227,6 +229,13 @@ justify-content: space-between;
     margin-bottom: 5%;
 }
 
+.pj-high p{
+    color: rgba(29, 34, 27, 0.62);
+    font-family: "Cutive", serif;
+}
+.pj-high > h4{
+    font-size: 1.5vw;
+}
 .review-container{
     height: auto;
     width: 100%;
@@ -278,6 +287,7 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
     padding: 1vw 3vw;
+    margin-top: 4vw;
 
 }
 .foot > p{
@@ -288,4 +298,10 @@ justify-content: space-between;
     border-radius: 10px;
     width: 10vw;
     height: 4vw;
+    font-size: 1.2vw;
+    border: px solid rgba(23, 52, 9, 0.16);
+}
+.col > h4,p{
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 1vw;
 }
