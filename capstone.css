@@ -183,7 +183,8 @@ body {
 
 .project-high {
     margin-left: 20%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    margin-top: 5%;
 }
 .prj-hg{
     font-family: Cutive;
@@ -260,7 +261,7 @@ body {
 
 }
 .foot > p{
-    font-size: 30px;
+    font-size: 2.083vw;
     color: rgba(29, 34, 27, 0.62);
 } 
 .sbm{
