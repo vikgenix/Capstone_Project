@@ -242,8 +242,6 @@ body {
     background-color: rgba(218, 218, 202, 0.4);
     transition: transform 0.5s ease, box-shadow 0.3s ease;
     flex-shrink: 0;
-    scroll-snap-align: center;
-
 }
 
 .review-container .top {
@@ -331,7 +329,7 @@ p {
 
 .card {
     padding: 25px;
-    transition: transform 0.2s;
+    transition: transform 0.5s;
 }
 
 .card img {
