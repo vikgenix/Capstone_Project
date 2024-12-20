@@ -81,9 +81,9 @@ body {
 }
 
 .metric {
-    padding: 20px;
+    padding: 1.389vw;
     display: flex;
-    height: 400px;
+    height: 27.778vw;
 }
 
 .im {
@@ -354,10 +354,31 @@ p {
     .container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .metric{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+    .prj-hg{
+        font-size: 150%;
+    }
+    .col{
+        background-color: #555;
+    }
+    
 }
 
 @media (max-width: 480px) {
     .container {
         grid-template-columns: 1fr;
+    }
+    .metric{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
     }
 }
